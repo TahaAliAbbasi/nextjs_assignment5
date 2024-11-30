@@ -8,7 +8,13 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      colors: {
+      width:{
+        "custom":"30vw",
+        "cust":"25vw",
+        "custom2":"35vw"
+      },
+      
+      color: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
